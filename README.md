@@ -6,8 +6,7 @@ Example app in react, setup to work with a self-hoste parse-server.
 
 1. Copy/download this project
 2. Install all dependencies via `yarn install` or `npm install`
-3. Copy `.env.example` to `.env` and fill in the values 
-
+3. Copy `.env.example` to `.env` and fill in the values
 
 ### Run your dapp
 
