@@ -42,6 +42,10 @@
     "build": "cross-env SKIP_PREFLIGHT_CHECK=true GENERATE_SOURCEMAP=false react-app-rewired build",
     "eject": "react-scripts eject"
   },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
