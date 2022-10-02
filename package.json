@@ -38,8 +38,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "cross-env SKIP_PREFLIGHT_CHECK=true GENERATE_SOURCEMAP=false react-app-rewired start",
-    "build": "cross-env SKIP_PREFLIGHT_CHECK=true GENERATE_SOURCEMAP=false react-app-rewired build",
+    "start": "SKIP_PREFLIGHT_CHECK=true GENERATE_SOURCEMAP=false react-app-rewired start",
+    "build": "SKIP_PREFLIGHT_CHECK=true GENERATE_SOURCEMAP=false react-app-rewired build",
     "eject": "react-scripts eject"
   },
   "engines": {
